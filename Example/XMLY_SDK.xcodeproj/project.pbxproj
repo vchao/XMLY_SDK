@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		03FD7C41F402AE24580642B8 /* Pods-XMLY_SDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMLY_SDK_Example.release.xcconfig"; path = "Target Support Files/Pods-XMLY_SDK_Example/Pods-XMLY_SDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0D16C5AC1D11D8AA7A96009C /* Pods_XMLY_SDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMLY_SDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		436B245BB9BFBE7CB4EEEFFB /* XMLY_SDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XMLY_SDK.podspec; path = ../XMLY_SDK.podspec; sourceTree = "<group>"; };
+		436B245BB9BFBE7CB4EEEFFB /* XMLY_SDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XMLY_SDK.podspec; path = ../XMLY_SDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4548E8AE891FB14AAD68E382 /* Pods-XMLY_SDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMLY_SDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XMLY_SDK_Tests/Pods-XMLY_SDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XMLY_SDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLY_SDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,12 +61,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		64CD2CC4BCFD992612847185 /* Pods-XMLY_SDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMLY_SDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-XMLY_SDK_Tests/Pods-XMLY_SDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		70309C50D165503856E6092E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		70309C50D165503856E6092E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82F1F01A62AB4BE61D16E88E /* Pods-XMLY_SDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMLY_SDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-XMLY_SDK_Example/Pods-XMLY_SDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6B11D0F6420A7F62B066344 /* Pods_XMLY_SDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMLY_SDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F98A7B78FBB0AABDCF488171 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F98A7B78FBB0AABDCF488171 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				4548E8AE891FB14AAD68E382 /* Pods-XMLY_SDK_Tests.debug.xcconfig */,
 				64CD2CC4BCFD992612847185 /* Pods-XMLY_SDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
