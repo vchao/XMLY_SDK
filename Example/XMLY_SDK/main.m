@@ -1,0 +1,17 @@
+//
+//  main.m
+//  XMLY_SDK
+//
+//  Created by vchao on 06/10/2020.
+//  Copyright (c) 2020 vchao. All rights reserved.
+//
+
+@import UIKit;
+#import "XMAppDelegate.h"
+
+int main(int argc, char * argv[])
+{
+    @autoreleasepool {
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([XMAppDelegate class]));
+    }
+}

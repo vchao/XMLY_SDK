@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XMLY_SDK_Example' do
+  pod 'XMLY_SDK', :path => '../'
+
+  target 'XMLY_SDK_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
